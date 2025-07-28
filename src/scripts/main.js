@@ -32,7 +32,7 @@ slider.addEventListener('scroll', (e) => {
     dots[1].classList.add('main_content__gallery__slider_dots__dot--active');
   } else if (slider.scrollLeft < (maxScroll / 4) * 3) {
     dots[2].classList.add('main_content__gallery__slider_dots__dot--active');
-  } else if (slider.scrollLeft <= (maxScroll / 4) * 4) {
+  } else {
     dots[3].classList.add('main_content__gallery__slider_dots__dot--active');
   }
 });
