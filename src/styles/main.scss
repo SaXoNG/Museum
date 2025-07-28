@@ -2,10 +2,10 @@
 @import 'utils';
 @import 'fonts';
 @import 'typography';
-@import './blocks/header.scss';
-@import './blocks/menu.scss';
-@import './blocks/main_content.scss';
-@import './blocks/footer.scss';
+@import './blocks/header';
+@import './blocks/menu';
+@import './blocks/main_content';
+@import './blocks/footer';
 
 * {
   scroll-behavior: smooth;
